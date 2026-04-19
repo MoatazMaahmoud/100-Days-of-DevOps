@@ -15,4 +15,4 @@ This procedure was executed across App Server 1 (`stapp01`), App Server 2 (`stap
    sudo sed -i 's/PermitRootLogin yes/PermitRootLogin no/g' /etc/ssh/sshd_config
 3. Restarted the SSH service to apply the configuration changes:
    ```bash
-  		 sudo systemctl restart sshd
+  	sudo systemctl restart sshd
